@@ -30,6 +30,5 @@
         "psr-4": {
             "CSakel\\Pterodactyl\\": "src/"
         }
-    },
-    "prefer-stable": true
+    }
 }
