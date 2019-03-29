@@ -11,12 +11,16 @@
         {
             "name": "TLingC",
             "email": "my@tlingc.com"
+        },
+        {
+            "name": "Christopher Sakel",
+            "email": "christopher.sakel@icloud.com"
         }
+            
     ],
     "require": {
         "php": ">=5.6.4",
-        "guzzlehttp/guzzle": "~6.0",
-        "illuminate/support": "5.7.*"
+        "guzzlehttp/guzzle": "~6.0"
     },
     "require-dev": {
         "mockery/mockery": "0.9.*",
@@ -24,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "HCGCloud\\Pterodactyl\\": "src/"
+            "CSakel\\Pterodactyl\\": "src/"
         }
     },
     "prefer-stable": true
